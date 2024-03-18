@@ -45,7 +45,7 @@
    			 <h1 class="display-4">WordCamp New Braunfels</h1>
     			<p class="lead mb-4">A One-Day Conference About WordPress</p>
 			 	<div class="mt-5">
-  <button type="button" class="btn btn-secondary btn-lg">Register Now</button>
+  <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
   <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
 </div>
  		 </div>
@@ -79,8 +79,30 @@
 </div>
     </div>
   </div>
-  <!-- /about -->
 </div>
+ <!-- /about -->	  
+	  
+<!-- Modal -->
+<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title id=register">Register for WordCamp Conference</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>	  
+<!-- /Modal -->	  
 	  
 <!-- speakers -->
 <h2 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h2>
@@ -225,7 +247,7 @@
 <!-- /schedule -->
 
 <!-- callout button -->
-<button type="button" class="btn btn-secondary btn-lg d-block mx-auto my-5">Don't Miss Out, Register Now</button>
+<button type="button" class="btn btn-secondary btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
 <!-- /callout button -->	  
 	  
 <!-- signup form -->
@@ -277,6 +299,7 @@
     </div>
   </div>
 <!-- /footer -->	  
+	  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
