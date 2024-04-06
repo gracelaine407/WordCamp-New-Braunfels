@@ -8,13 +8,17 @@
 	  
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	  <link href="Normalize.css" rel="stylesheet">
+	  <link href="style.css" rel="stylesheet">
 
-    <title>WordCamp New Braunfels</title>
+  <title>WordCamp New Braunfels</title>
   </head>
   <body id="home" data-spy="scroll" data-target=".navbar" >
-	  <!-- navbar -->
+	  
+	  
+  <!-- navbar -->
 	  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <div class="container">
+  <div class="container-fluid">
     <a class="navbar-brand order-1 mr-0" href="#" target="_blank">Presented by NVC</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -33,7 +37,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#schedule">Schedule</a>
         </li>
-		</ul>	  
       </div>
     </div>
 </nav>
@@ -41,13 +44,14 @@
 	  
 <!-- jumbotron -->
 	  <div class="jumbotron jumbotron-fluid bg-info">
- 		 <div class="container text-sm-center mt-5">
+ 		 <div class="container text-sm-center mt-3">
    			 <h1 class="display-4">WordCamp New Braunfels</h1>
     			<p class="lead mb-4">A One-Day Conference About WordPress</p>
 			 	<div class="mt-5">
   <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
   <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
 </div>
+			 </div>
  		 </div>
 	</div>
 <!-- /jumbotron -->	  
@@ -95,7 +99,7 @@
         </button>
       </div>
       <div class="modal-body">
-		  <div class="alert alert-secondary" role="alert">
+		  <div class="alert alert-warning" role="alert">
   			<strong>Hurry!</strong> Early bird registration ends in two days.
 			  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
    			 <span aria-hidden="true">&times;</span>
@@ -204,7 +208,7 @@
     </div>
 		</div>
 		</div>	
-		<button class="btn btn-secondary" type="submit">Register</button>
+		<button type="submit" class="btn btn-secondary button-submit">Register</button>
 		  </form>	  
         
       </div>
@@ -216,7 +220,7 @@
 <!-- /Modal -->	  
 	  
 <!-- speakers -->
-<h2 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h2>
+<h2 id="speakers" class="display-4 text-center my-5">Speakers</h2>
 <div class="row">
   <div class="col-md-6 col-lg-4">
 	  <div class="card mb-3">
@@ -281,7 +285,7 @@
 <!-- /speakers -->
 
 <!-- schedule -->
-<h2 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h2>
+<h2 id="schedule" class="display-4 text-center my-5">Schedule</h2>
 <ul class="list-group">
 	<li class="list-group-item">
     <div class="d-flex justify-content-between">
@@ -358,7 +362,7 @@
 <!-- /schedule -->
 
 <!-- callout button -->
-<button type="button" class="btn btn-secondary btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
+<button type="button" class="btn btn-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
 <!-- /callout button -->	  
 	  
 <!-- signup form -->
@@ -393,7 +397,7 @@
         </li>
         <li class="nav-item">
           <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Other Confs
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
