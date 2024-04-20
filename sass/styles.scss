@@ -3,21 +3,21 @@
 
 /* Variables */
 $myFont: Calibri, sans-serif;
-$myColor-aqua: 17a2b8;
-$myColor-purple: 5e308b;
+$myColor-aqua: #17a2b8;
+$myColor-purple: #5e308b;
 
 html {font-family: $myFont;}
 
 /* Navbar */
 
 .navbar {
-	box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.08);
+	box-shadow: 7px 7px 7px 0 rgba(1, 0, 0, 0.08);
 	a.navbar-brand {
 		color: $myColor-purple;}
 	&.navbar-light {
 		.navbar-nav  {
 			.nav-link {
-				color: #fff;
+				color: $myColor-aqua;
 				
 						}
 					 }
@@ -27,7 +27,7 @@ html {font-family: $myFont;}
 
 
 .jumbotron {background-color: transparent;
-	background: url("../img/ComalRiverGazebo.jpeg");
+	background: url("main/img/ComalRiverGazebo.jpeg");
 	  background-size: cover;} 
 
 /* Heading Styles */
