@@ -10,25 +10,28 @@ html {font-family: $myFont;}
 
 /* Navbar */
 
-.navbar {
-	box-shadow: 7px 7px 7px 0 rgba(1, 0, 0, 0.08);
-	a.navbar-brand {
-		color: $myColor-purple;}
-	&.navbar-light {
-		.navbar-nav  {
-			.nav-link {
-				color: $myColor-aqua;
-				
-						}
-					 }
-				   } 
-		}
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 
+  li { display: inline-block; }
+
+  a {
+    color: $myColor-aqua;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
 
 
 .jumbotron {background-color: transparent;
-	background: url("main/img/ComalRiverGazebo.jpeg");
+	background-image: url("../img/ComalRiverGazebo.jpeg");
 	  background-size: cover;} 
+
 
 /* Heading Styles */
 h1 {
