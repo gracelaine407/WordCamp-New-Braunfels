@@ -3,7 +3,7 @@
 
 /* Variables */
 $myFont: Calibri, sans-serif;
-$myColor-aqua: #17a2b8;
+$myColor: #17a2b8;
 $myColor-purple: #5e308b;
 
 html {font-family: $myFont;}
@@ -20,7 +20,7 @@ nav {
   li { display: inline-block; }
 
   a {
-    color: $myColor-aqua;
+    color: $myColor;
     display: block;
     padding: 6px 12px;
     text-decoration: none;
@@ -41,13 +41,13 @@ h1 {
   text-align: center;
 }
 
-h2, h3 {color: $myColor-aqua;}
+h2, h3 {color: $myColor;}
 
 .lead {color: #fff;}
 
 /* Submit Button */
 .button-submit {
-  background: myColor-aqua;
+  background: myColor;
   border-radius: 20px;
   color: #fff;
   cursor: pointer; 
