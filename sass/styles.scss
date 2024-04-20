@@ -30,7 +30,7 @@ nav {
 /* Jumbotron */
 
 .jumbotron {background-color: transparent;
-	background-image: URL("../img/ComalRiverGazebo.jpeg");
+	background-image: URL("img/ComalRiverGazebo.jpeg");
 	  background-size: cover;} 
 
 
@@ -41,7 +41,7 @@ h1 {
   text-align: center;
 }
 
-h2 {color: $myColor-aqua;}
+h2, h3 {color: $myColor-aqua;}
 
 .lead {color: #fff;}
 
