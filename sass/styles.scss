@@ -35,11 +35,13 @@ nav {
 
 
 /* Heading Styles */
-h1 {font: 
-	{family: $myFont;
-  	size: $myFontSize;)
-  color: #fff;
-  text-align: center;
+h1 {
+	{font: 
+		{family: $myFont;
+  		size: $myFontSize;}
+	}	
+  	color: #fff;
+  	text: {align: center;}
    }
 
 h2, h3 {color: $myColor;}
@@ -48,7 +50,7 @@ h2, h3 {color: $myColor;}
 
 /* Submit Button */
 .button-submit {
-  background: myColor;
+  background: $myColor;
   border-radius: 20px;
   color: #fff;
   cursor: pointer; 
