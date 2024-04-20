@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+/* Variables */
+$myFont: Calibri, sans-serif;
+$myColor-aqua: 17a2b8;
+$myColor-purple: 5e308b;
+
+html {font-family: $myFont;}
+
+/* Navbar */
+
+.navbar {
+	box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.08);
+	a.navbar-brand {
+		color: $myColor-purple;}
+	&.navbar-light {
+		.navbar-nav  {
+			.nav-link {
+				color: #fff;
+				
+						}
+					 }
+				   } 
+		}
+
+
+
+.jumbotron {background-color: transparent;
+	background: url("../img/ComalRiverGazebo.jpeg");
+	  background-size: cover;} 
+
+/* Heading Styles */
+h1 {
+  font-size: 75px;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {color: $myColor-aqua}
+
+.lead {color: #fff;}
+
+/* Submit Button */
+.button-submit {
+  background: myColor-aqua;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer; 
+  display: block;
+  font-size: 20px;
+  font-weight: bold;  
+  margin: 0 auto 60px;
+  padding: 1em 2em; 
+  text-align: center; 
+}
