@@ -3,18 +3,7 @@
 html {
   font-family: Calibri, sans-serif; }
 
-/* Navbar */
-.navbar {
-  box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.08); }
-  .navbar a.navbar-brand {
-    color: 500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b; }
-  .navbar.navbar-light .navbar-nav .nav-link {
-    color: #fff; }
 
-.jumbotron {
-  background-color: transparent;
-  background: url("img/ComalRiverGazebo.jpeg");
-  background-size: cover; }
 
 /* Heading Styles */
 h1 {
