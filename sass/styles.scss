@@ -4,7 +4,7 @@
 /* Variables */
 $myFont: Calibri, sans-serif;
 $myColor: #17a2b8;
-$myColor-purple: #5e308b;
+$myFontSize: 75px;
 
 html {font-family: $myFont;}
 
@@ -35,11 +35,12 @@ nav {
 
 
 /* Heading Styles */
-h1 {
-  font-size: 75px;
+h1 {font: 
+	{family: $myFont;
+  	size: $myFontSize;)
   color: #fff;
   text-align: center;
-}
+   }
 
 h2, h3 {color: $myColor;}
 
